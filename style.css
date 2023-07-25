@@ -1,0 +1,117 @@
+.navbar {
+    background: 
+        linear-gradient(
+            rgba(90, 255, 211, 0.747), 
+            rgba(0, 0, 0, 0.719)
+        ),
+        url("./3648410.jpg");
+}
+
+.navbar-brand {
+    margin: auto;
+    font-size: 300%;
+    color: #D1E8E2;
+    font-weight: bold;
+}
+
+.nav-link {
+    color:#D1E8E2;
+    font-weight: bold;
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+.navbar-toggler-icon {
+    background-color: #116466;
+    border-radius: 20%;
+}
+
+body {
+    background: 
+        linear-gradient(
+            rgba(90, 255, 211, 0.90), 
+            rgba(0, 0, 0, 0.90)
+        ),
+        url("./3648410.jpg");
+}
+
+h1 {
+    font-size: 400%
+}
+
+.jumbotron {
+    color: #D1E8E2
+}
+
+.jumbotron h2 {
+    color:#FFCB9A
+}
+
+.jumbotron p {
+    font-size: 130%;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.parallax {
+    /* The image used */
+    background: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.432), 
+            rgba(0, 0, 0, 0.212)
+        ),
+        url("./3648410.jpg");
+    /* Set a specific height */
+    min-height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+        /* Add this: */
+        position: relative;
+    }
+    
+.parallax-content {
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    
+        color: #D1E8E2;  /* Text color - adjust as needed */
+        text-align: center;
+    
+        /* For better readability, you can add a shadow to the text */
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+.content {
+    /* Just for display purpose */
+    height: 500px;
+}
+
+
+.card-body {
+    background-color:#116566;
+}
+
+.card > img {
+    height:100%
+}
+
+.card-text {
+    color: #D1E8E2
+}
+
+.card-text span {
+    color:#FFCB9A
+}
+
+.card {
+    border: 2px solid #D9B08C; /* 2px wide, solid line, red color */
+}
+
+#fw-normal {
+    color: #FFCB9A
+}
